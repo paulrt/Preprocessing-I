@@ -59,7 +59,9 @@ button{
   font-size:16px;
   margin-top:2%;
 }
-
+p {
+    font-family: 'Playfair Display', serif;
+}
 /*flight section styles */
 .flightText{
   width:80%;
