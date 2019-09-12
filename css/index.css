@@ -1,1 +1,74 @@
-/* Compile your LESS file! */
+/* Compile
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+/*   border:1px solid grey; */
+}
+body{
+  line-height:2;
+  font-family: 'Montserrat', sans-serif;
+}
+section{
+  padding:4% 0;
+}
+h2{
+  font-size:30px;
+  color:#00CED1;
+}
+h1, h2{
+  font-family: 'Roboto Mono', monospace;
+  text-align:center;
+}
+
+/*header styles*/
+
+h1{
+  font-size:50px;
+  color:#00CED1;
+}
+nav{
+  text-align:center;
+}
+nav a{
+  text-decoration:none;
+  color:#5F9EA0;
+  font-size:20px;
+  letter-spacing:3px;
+  margin-left:10px;
+  margin-right:10px;
+}
+nav a:hover{ /*styles are applied when a user hovers over this element*/
+  color:#4682B4;
+  text-decoration:overline;
+}
+img{
+  width:100%;
+}
+
+/* about section styles*/
+.aboutText{
+  width:80%;
+  margin:0 auto;
+}
+button{
+  background-color:#1E90FF !important;
+  color:white;
+  width:20%;
+  height:50px;
+  font-size:16px;
+  margin-top:2%;
+}
+
+/*flight section styles */
+.flightText{
+  width:80%;
+  margin:0 auto;
+}
+#flights{
+  background-color:#00CED1;
+  color:#fff;
+}
+#flights h2{
+  color:#fff;
+} your LESS file! */
