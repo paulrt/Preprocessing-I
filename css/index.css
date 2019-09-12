@@ -62,6 +62,14 @@ button{
 p {
     font-family: 'Playfair Display', serif;
 }
+
+certs {
+    font-family: 'Playfair Display', serif;
+font-family: 'Dancing Script', cursive;
+}
+
+
+
 /*flight section styles */
 .flightText{
   width:80%;
