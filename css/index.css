@@ -105,7 +105,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 67.5%ems;
 }
 
 nav{
@@ -143,10 +143,12 @@ nav a {
   padding:auto;
   display:flex;
   justify-content: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+
   
 }
 
-@media (min-width) {
+@media (min-width:500px) {
     .my_ruleset;
 }
 
