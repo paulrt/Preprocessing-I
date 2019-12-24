@@ -142,7 +142,6 @@ body {
 }
 nav {
   display: flex;
-  flex-direction: row-reverse;
   width: 100%;
   padding: auto;
   justify-content: space-between;
