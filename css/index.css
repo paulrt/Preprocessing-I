@@ -87,9 +87,11 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  border: 2px solid red;
-  font: inherit;
+  border-radius: 2px solid red;
   vertical-align: baseline;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -134,4 +136,5 @@ table {
 html,
 body {
   height: 100%;
+  width: 100%;
 }
