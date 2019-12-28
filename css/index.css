@@ -154,5 +154,22 @@ img {
 h1 {
   justify-content: center;
   font-size: 40px;
-  color: green;
+  color: red;
+  background:green;
+  text-align:center;
+}
+
+.merryxmas {
+  height:25%;
+  width:25%;
+  margin:0px auto;
+  padding:auto;
+}
+
+nav {
+  padding:auto;
+  width:90%;
+  margin:0px auto;
+  display:flex;
+  justify-content:space-evenly;
 }
