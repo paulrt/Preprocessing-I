@@ -168,6 +168,9 @@ img {
   width: 250px;
   margin: 5%;
 }
+.top {
+  width: 100%;
+}
 p {
   font-size: 30px;
   width: 100%;
