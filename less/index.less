@@ -63,11 +63,14 @@ table {
 
 
 //Mixins
-.boredered {
-	border-top-left-radius: @radius;
-	border-top-right-radius: @radius;
-}
+.paragraph-text {
+	font-size:30px;
+	width:100%;
+	padding:auto;
+	margin:0px auto;
+	background-color:gray;
 
+}
 
 
 
@@ -104,21 +107,6 @@ img {
 	margin:5%;
 }
 
-div {
-	width: 200px;
-	height: 200px;
-	display: block;
-	position: relative;
-  }
-  
-  div::after {
-	content: "";
-	background: url(christmas.jpg);
-	opacity: 0.5;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	position: absolute;
-	z-index: -1;   
-  }
+.p {
+	.paragraph-text();
+}
