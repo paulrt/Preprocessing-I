@@ -60,6 +60,8 @@ table {
 @width:100%;
 @height:@width + 10px;
 @radius:125px;
+@color:brown;
+@font-size:35px;
 
 
 //Mixins
@@ -69,6 +71,14 @@ table {
 	padding:auto;
 	margin:0px auto;
 	background-color:gray;
+}
+
+.heading-text {
+	font-size:35px;
+	color:brown;
+	width:100%;
+	padding:auto;
+	margin:0px auto;
 
 }
 
@@ -120,4 +130,8 @@ p {
 	.paragraph-text();
 }
 
+
+h2 {
+	.heading-text();
+}
 

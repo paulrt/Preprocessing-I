@@ -140,6 +140,13 @@ table {
   margin: 0px auto;
   background-color: gray;
 }
+.heading-text {
+  font-size: 35px;
+  color: brown;
+  width: 100%;
+  padding: auto;
+  margin: 0px auto;
+}
 html,
 body {
   padding: auto;
@@ -179,4 +186,11 @@ p {
   padding: auto;
   margin: 0px auto;
   background-color: gray;
+}
+h2 {
+  font-size: 35px;
+  color: brown;
+  width: 100%;
+  padding: auto;
+  margin: 0px auto;
 }
