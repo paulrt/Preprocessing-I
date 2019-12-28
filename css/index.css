@@ -181,7 +181,7 @@ h1 {
   width: 100%;
   justify-content: center;
   font-size: 40px;
-  color: green;
+  color: whitesmoke;
 }
 img {
   width: 250px;
@@ -206,4 +206,14 @@ h2 {
   display: flex;
   justify-content: center;
   color: #005905;
+}
+h3 {
+  font-size: 35px;
+  color: #005905;
+  width: 100%;
+  padding: auto;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  color: #22333b;
 }
