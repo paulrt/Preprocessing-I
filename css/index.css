@@ -135,17 +135,15 @@ table {
 }
 html,
 body {
-  height: 100%;
-  width: 100%;
   padding: auto;
   margin: 0 auto;
 }
 nav {
   display: flex;
   width: 100%;
-  padding: auto;
+  padding: 2%;
   justify-content: space-between;
-  margin: 0.5%;
+  margin: 2%;
 }
 img {
   display: flex;
@@ -156,6 +154,11 @@ h1 {
   font-size: 40px;
   color: #cd0028;
 }
-.merryxmas {
-  size: 25%;
+img {
+  width: 250px;
+  margin: 5%;
+}
+#button {
+  width: 100%;
+  height: 100px;
 }
