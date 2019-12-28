@@ -136,7 +136,7 @@ table {
   box-sizing: border-box;
 }
 .paragraph-text {
-  font-size: 20px;
+  font-size: 16px;
   width: 100%;
   padding: auto;
   margin: 0px auto;
@@ -190,7 +190,7 @@ img {
   width: 100%;
 }
 p {
-  font-size: 20px;
+  font-size: 16px;
   width: 100%;
   padding: auto;
   margin: 0px auto;
