@@ -141,6 +141,7 @@ table {
   padding: auto;
   margin: 0px auto;
   background-color: #22333b;
+  color: white;
 }
 .heading-text {
   font-size: 35px;
@@ -195,6 +196,7 @@ p {
   padding: auto;
   margin: 0px auto;
   background-color: #22333b;
+  color: white;
 }
 h2 {
   font-size: 35px;
