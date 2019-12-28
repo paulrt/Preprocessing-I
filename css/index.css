@@ -87,7 +87,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  border: 2px solid red;
   vertical-align: baseline;
   align-items: center;
   display: flex;
@@ -108,7 +107,8 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  width: 100%;
+  line-height: 1.5;
   background: #d61d1d;
   opacity: 80%;
 }
@@ -136,8 +136,10 @@ table {
   box-sizing: border-box;
 }
 .paragraph-text {
+  display: flex;
+  justify-content: center;
   font-size: 16px;
-  width: 100%;
+  width: 80%;
   padding: auto;
   margin: 0px auto;
   background-color: #22333b;
@@ -151,6 +153,20 @@ table {
   margin: 0px auto;
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  .main nav {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: auto;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .main nav .a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
 }
 .main html,
 .main body {
@@ -193,8 +209,10 @@ table {
   width: 100%;
 }
 .main p {
+  display: flex;
+  justify-content: center;
   font-size: 16px;
-  width: 100%;
+  width: 80%;
   padding: auto;
   margin: 0px auto;
   background-color: #22333b;
