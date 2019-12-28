@@ -34,6 +34,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background:@color3;
+	opacity:80%;
 }
 ol, ul {
 	list-style: none;
@@ -60,26 +62,31 @@ table {
 @width:100%;
 @height:@width + 10px;
 @radius:125px;
-@color:brown;
+@color1: rgba(32, 31, 30, 1);
+@color2: rgba(34, 51, 59, 1);
+@color3: rgba(214, 29, 29, 1);
+@color4: rgba(0, 89, 5, 1);
+@color5: rgba(94, 65, 30, 1);
 @font-size:35px;
 
 
 //Mixins
 .paragraph-text {
-	font-size:30px;
+	font-size:20px;
 	width:100%;
 	padding:auto;
 	margin:0px auto;
-	background-color:gray;
+	background-color:@color2;
 }
 
 .heading-text {
 	font-size:35px;
-	color:brown;
+	color:@color4;
 	width:100%;
 	padding:auto;
 	margin:0px auto;
-
+	display:flex;
+	justify-content:center;
 }
 
 
@@ -87,8 +94,11 @@ table {
 html, body {
 	padding:auto;
 	margin:0 auto;
-	background:white;
-	opacity: 95%;
+}
+
+* {
+	background-color:@color3;
+	opacity:20;
 }
 
 nav {
@@ -99,6 +109,10 @@ nav {
 	align-items: center;
 	text-decoration:none;
 	margin-left:10%;
+	.a {
+		text-decoration: none;
+
+	}
 
 }
 
@@ -133,5 +147,5 @@ p {
 
 h2 {
 	.heading-text();
+	color:@color4;
 }
-
