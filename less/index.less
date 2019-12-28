@@ -56,17 +56,19 @@ table {
     box-sizing: border-box;
 }
 
+//Variables
+@width:100%;
+@height:@width + 10px;
+@radius:125px;
+
+
 //Mixins
-.boreder-top-radius(@radius) {
+.boredered {
 	border-top-left-radius: @radius;
 	border-top-right-radius: @radius;
 }
 
-div {
-	.border-top-radius(125px);
-	.border-top-radius(100px);
-	
-}
+
 
 
 html, body {

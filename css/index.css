@@ -133,6 +133,10 @@ table {
 * {
   box-sizing: border-box;
 }
+.boredered {
+  border-top-left-radius: 125px;
+  border-top-right-radius: 125px;
+}
 html,
 body {
   padding: auto;
