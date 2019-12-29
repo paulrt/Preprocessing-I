@@ -21,8 +21,10 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
+	align-items:center;
+	display:flex;
+	text-align:center;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,7 +32,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	width:100%;
+	line-height: 1.5;
+	background:@color3;
+	opacity:80%;
 }
 ol, ul {
 	list-style: none;
@@ -53,7 +58,134 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
+//Variables
+@width:100%;
+@height:@width + 10px;
+@radius:125px;
+@color1: rgba(32, 31, 30, 1);
+@color2: rgba(34, 51, 59, 1);
+@color3: rgba(214, 29, 29, 1);
+@color4: rgba(0, 89, 5, 1);
+@color5: rgba(94, 65, 30, 1);
+@font-size:35px;
+
+
+//Mixins
+.paragraph-text {
+	display:flex;
+	justify-content: center;
+	font-size:16px;
+	width:80%;
+	padding:auto;
+	margin:0px auto;
+	background-color:@color2;
+	color:white;
 }
 
+.heading-text {
+	font-size:35px;
+	color:@color4;
+	width:100%;
+	padding:auto;
+	margin:0px auto;
+	display:flex;
+	justify-content:center;
+}
+
+.main {
+
+	@media screen and (max-width:500px) {
+		nav {
+			display:flex;
+			flex-direction: column;
+			width:30%;
+			padding:auto;
+			justify-content: center;
+			margin:0 auto;
+		};
+		nav .a {
+			// display:flex;
+			// flex-direction: column;
+			text-decoration: none;
+			color:whitesmoke;
+		};
+	}
+
+	html, body {
+		padding:auto;
+		margin:0 auto;
+	}
+
+	nav {
+		display:flex;
+		width:80%;
+		padding:2.5%;
+		justify-content: space-evenly;
+		align-items: center;
+		text-decoration:none;
+		margin-left:10%;
+		.a {
+			text-decoration: none;
+
+		}
+
+	}
+
+	.contact {
+		align-items: center;
+		display:flex;
+		background-color: whitesmoke;
+	}
+
+	img {
+		display:flex;
+		justify-content: relative;
+
+	}
+
+	h1 {
+		width:@width;
+		padding:2.5%;
+		justify-content:center;
+		font-size:40px;
+		color:whitesmoke;
+	}
+
+	img {
+		width:250px;
+		margin:0 5%;
+	}
+
+	.top {
+		width:@width;
+
+	}
+
+	p {
+		.paragraph-text();
+	}
+
+
+	h2 {
+		.heading-text();
+		color:@color4;
+		background-color:@color2;
+	}
+
+	h3 {
+		.heading-text();
+		color:@color2;
+		width:@width;
+
+	}
+
+	.a {
+		font-size:20px;
+
+	}
+
+	nav .a:onhover {
+		color:black;
+		font-size:25px;
+	}
+}
